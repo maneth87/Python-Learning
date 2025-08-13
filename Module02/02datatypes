@@ -1,0 +1,26 @@
+#Basic datatype
+
+#1. string datatype
+#string value can be use sigle quote or double quote    
+
+name = "Maneth"
+name2 ='Som'
+print("Example of string datatype")
+print (f"Hello {name} and {name2}")
+
+#2. integer datatype
+print("Example of integer datatype")
+age = 38
+print(f"{name} is {age} years old")
+
+#3. float datatype
+print("Example of float datatype")
+height = 5.9    
+print(f"{name} is {height} feet tall")
+
+#4. boolean datatype
+print("Example of boolean datatype")
+is_student = True
+print(f"Is {name} a student? {is_student}")
+is_student = False
+print(f"Is {name2} a student? {is_student }")

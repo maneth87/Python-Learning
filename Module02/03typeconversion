@@ -1,0 +1,18 @@
+#type conversion
+
+age="25"#string datatype
+
+intAge=int(age)#convert string to integer
+
+print(intAge)
+
+#compute string with integer
+#newAge=age + 5 #this will cause an error because you cannot add a string and an integer directly    
+newAge=int(age) + 5 #convert string to integer before adding
+
+print(f"newAge = {newAge}")
+
+#float conversion
+height=5
+newHeight=float(height) #convert integer to float
+print(f"height = {height} newHeight = {newHeight}")
