@@ -13,6 +13,6 @@ newAge=int(age) + 5 #convert string to integer before adding
 print(f"newAge = {newAge}")
 
 #float conversion
-height=5
+height=5 #integer datatype
 newHeight=float(height) #convert integer to float
 print(f"height = {height} newHeight = {newHeight}")

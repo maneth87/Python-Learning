@@ -1,0 +1,14 @@
+while True:
+    try:
+        number =int(input("Enter a number to generate multiplication table: "))
+        if number>0:
+            for i in range(1,11): #loop from 1 to 10
+                print(f"{number} x {i} = {number*i}") #print the multiplication table   
+        elif number==0:
+             print("user input is zero, System is exited.")
+             exit()
+        else:
+             exit() #exit the loop if number is not positive
+    except ValueError:
+            print("Invalid input. Please enter a valid number.")    
+        

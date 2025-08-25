@@ -11,4 +11,5 @@ print("Your input gender is ",gender)
 
 upperCase = name.upper()
 print ("Print Upper:",upperCase)
+#convert string to lowercase
 print("Print Lower:",upperCase.lower())
